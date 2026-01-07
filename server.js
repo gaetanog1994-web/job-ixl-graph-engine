@@ -1,6 +1,7 @@
 import express from "express";
 import neo4j from "neo4j-driver";
 
+
 const app = express();
 app.use(express.json({ limit: "2mb" }));
 
