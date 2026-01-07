@@ -1,0 +1,13 @@
+{
+    "name": "graph-engine",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "node server.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "neo4j-driver": "^5.28.1"
+    }
+}
